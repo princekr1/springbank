@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "UAT"
+
+build:
+  version: 2.0
+
+loans:
+  message: "welcome to eazybank loans related UAT apis"
+  type: "loans"
+  contactDetails:
+    name: "U Roy - QA Lead"
+    email: "uroy@eazybank.com"
+  onCallSupport:
+    - (999)555-1236
+    - (999)555-1237
