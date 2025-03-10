@@ -1,0 +1,11 @@
+build:
+  version: 1.0
+
+accounts:
+  message: "welcome to eazybank account related prod apis"
+  contactDetails:
+    name: "D Roy - Release Manager"
+    email: "Droy@eazybank.com"
+  onCallSupport:
+    - (777)555-1236
+    - (777)555-1237

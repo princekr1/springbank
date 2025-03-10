@@ -1,0 +1,12 @@
+build:
+  version: 3.0
+
+loans:
+  message: "welcome to eazybank loans related QA apis"
+  type: "loans"
+  contactDetails:
+    name: "smitha Roy - QA Lead"
+    email: "smitha@eazybank.com"
+  onCallSupport:
+    - (666)555-1236
+    - (666)555-1237
