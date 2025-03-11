@@ -13,8 +13,6 @@ public class Accounts extends BaseEntity{
     @Column
     private String branchAddress;
     @Column
-    private String mobileNumber;
-    @Column
     private Long customerId;
 
     public void setAccountNumber(Long accountNumber) {
@@ -27,10 +25,6 @@ public class Accounts extends BaseEntity{
 
     public void setBranchAddress(String branchAddress) {
         this.branchAddress = branchAddress;
-    }
-
-    public void setMobileNumber(String mobileNumber) {
-        this.mobileNumber = mobileNumber;
     }
 
     public void setCustomerId(Long customerId) {
@@ -47,10 +41,6 @@ public class Accounts extends BaseEntity{
 
     public String getBranchAddress() {
         return branchAddress;
-    }
-
-    public String getMobileNumber() {
-        return mobileNumber;
     }
 
     public Long getCustomerId() {
