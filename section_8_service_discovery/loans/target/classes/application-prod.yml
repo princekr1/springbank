@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: 1.0
+
+loans:
+  message: "welcome to eazybank loans related prod apis"
+  type: "loans"
+  contactDetails:
+    name: "D Roy - Release Manager"
+    email: "Droy@eazybank.com"
+  onCallSupport:
+    - (777)555-1236
+    - (777)555-1237

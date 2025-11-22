@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26001504-c231-401d-922f-111e8ce7e124" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="feature/section_7_mysql" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2se4EmSLTPuulBSzUCTU6seZzZw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Debug",
+    "Application.CardsApplication.executor": "Debug",
+    "Application.ConfigserverApplication.executor": "Debug",
+    "Application.LoansApplication.executor": "Debug",
+    "Docker.default.configserver: Compose Deployment.executor": "Run",
+    "Maven.cards [clean].executor": "Run",
+    "Maven.cards [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/tutorial/udemy_projects/microservice_learning/Git_branch/springbank/section_7_mysql/docker-compose/qa",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tutorial\udemy_projects\microservice_learning\Git_branch\springbank\section_7_mysql\docker-compose\qa" />
+      <recent name="C:\tutorial\udemy_projects\microservice_learning\Git_branch\springbank\section_7_mysql\docker-compose\prod" />
+      <recent name="C:\tutorial\udemy_projects\microservice_learning\section_8_configserver\docker-compose\qa" />
+      <recent name="C:\tutorial\udemy_projects\microservice_learning\section_8_configserver\docker-compose\prod" />
+      <recent name="C:\tutorial\udemy_projects\microservice_learning\section_8_configserver\docker-compose\default" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConfigserverApplication">
+    <configuration name="AccountsApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.accounts.AccountsApplication" />
+      <module name="accounts" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=prod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.cards.CardsApplication" />
+      <module name="cards" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybyte.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybyte.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.loans.LoansApplication" />
+      <module name="loans" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Microsservice" type="CompoundRunConfigurationType">
+      <toRun name="AccountsApplication" type="Application" />
+      <toRun name="CardsApplication" type="Application" />
+      <toRun name="LoansApplication" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="default.configserver: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="configserver" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CardsApplication" />
+      <item itemvalue="Application.LoansApplication" />
+      <item itemvalue="Application.AccountsApplication" />
+      <item itemvalue="Application.ConfigserverApplication" />
+      <item itemvalue="Compound.All Microsservice" />
+      <item itemvalue="Docker.default.configserver: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.default.configserver: Compose Deployment" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Docker.default.configserver: Compose Deployment" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26001504-c231-401d-922f-111e8ce7e124" name="Changes" comment="" />
+      <created>1738802596754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738802596754</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/AccountsServiceImpl.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+build:
+  version: 4.0
+
+loans:
+  message: "welcome to eazybank loans related local apis"
+  type: "loans"
+  contactDetails:
+    name: "john Doe - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (555)555-1234
+    - (555)555-1235
