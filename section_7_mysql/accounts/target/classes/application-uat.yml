@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "UAT"
+
+build:
+  version: 2.0
+
+accounts:
+  message: "welcome to eazybank account related UAT apis"
+  contactDetails:
+    name: "U Roy - QA Lead"
+    email: "uroy@eazybank.com"
+  onCallSupport:
+    - (999)555-1236
+    - (999)555-1237

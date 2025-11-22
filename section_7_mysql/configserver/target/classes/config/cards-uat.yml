@@ -1,0 +1,12 @@
+build:
+  version: 2.0
+
+cards:
+  message: "welcome to eazybank cards related UAT apis"
+  type: "cards"
+  contactDetails:
+    name: "U Roy - QA Lead"
+    email: "uroy@eazybank.com"
+  onCallSupport:
+    - (999)555-1236
+    - (999)555-1237
